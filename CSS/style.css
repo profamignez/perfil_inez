@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,300;0,400;0,600;1,600;1,900&display=swap');
+
+/*
+font-family: 'Palanquin', sans-serif;
+font-family: 'Staatliches', cursive;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#banner, .carousel-item  {
+   height: 600px;
+ }
+
+.container {
+   margin-top: 10px;
+   margin-bottom: 25px;
+}
+
+#menuCursos .nav-item a, .container a   {
+   font-size: 1.1em;
+   color: #9b084c;
+   font-weight: bolder;
+}
+
+.container a {
+   text-decoration: none;
+}
+
+.container a:hover {
+   color: rgb(2, 29, 43);
+   font-weight: bolder ;
+}
+
+#menuCursos .nav-item a:hover {
+   color: rgb(122, 70, 5);
+   font-weight: bolder;
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.192);
+}
+
+main p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.28em;
+  font-weight: 500;
+  text-align: justify;
+}
+
+main h1 {
+   font-family: 'Kaushan Script', cursive;
+   font-size: 2.1em;
+   font-weight: bold;
+   color: rgb(3, 53, 78);
+   text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.096);
+}
+
+main strong {
+   color: #2602DB;
+   font-size: 0.9em;
+}
+
+main .bg-CinzaClaro {
+   background-color: rgb(240, 234, 236);
+}   
+
