@@ -19,6 +19,7 @@ body {
 .container {
    margin-top: 10px;
    margin-bottom: 25px;
+   
 }
 
 #menuCursos .nav-item a, .container a   {
@@ -65,4 +66,20 @@ main strong {
 main .bg-CinzaClaro {
    background-color: rgb(240, 234, 236);
 }   
+
+main a {
+   text-decoration: none;
+   color: rgb(7, 77, 112);
+   font-weight: bolder;
+}
+
+main a:hover {
+   color: #9b084c;
+}
+
+a.externo::after {
+   content: '\00A0\1F517';  /* Link Externo*/
+}
+
+
 
