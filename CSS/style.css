@@ -15,7 +15,7 @@ body {
 #banner, .carousel-item  {
    height: 600px;
  }
-
+ 
 .container {
    margin-top: 10px;
    margin-bottom: 25px;
@@ -26,9 +26,10 @@ body {
    font-size: 1.1em;
    color: #9b084c;
    font-weight: bolder;
+
 }
 
-.container a {
+.container a  {
    text-decoration: none;
 }
 
@@ -37,11 +38,17 @@ body {
    font-weight: bolder ;
 }
 
-#menuCursos .nav-item a:hover {
+#menuCursos .nav-item  a:hover {
    color: rgb(122, 70, 5);
    font-weight: bolder;
    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.192);
+
+
+   background-color: rgb(30, 114, 211);
+   display: inline;
+   position: relative;
 }
+
 
 main p {
   font-family: 'Roboto', sans-serif;
@@ -81,5 +88,5 @@ a.externo::after {
    content: '\00A0\1F517';  /* Link Externo*/
 }
 
-
+/* Sub-menu*/
 
